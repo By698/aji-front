@@ -1,5 +1,6 @@
 import React from 'react';
 import ProductsTable from './ProductsTable';
+import FilterForm from './FilterForm';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
               <h1>Sklep</h1>
           </header>
           <main>
+              <FilterForm/>
               <ProductsTable/>
           </main>
       </div>
